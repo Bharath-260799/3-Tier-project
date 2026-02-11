@@ -615,7 +615,7 @@
         /* Load students */
         async function loadStudents() {
             try {
-                const res = await fetch('https://api.stephenclouds.store/students');
+                const res = await fetch('https://10.0.2.178:5000/students');
                 if (!res.ok) throw new Error('Failed to fetch students');
                 allStudents = await res.json();
 
@@ -725,5 +725,6 @@
     </script>
 
 </body>
+
 
 </html>
