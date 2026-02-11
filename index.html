@@ -529,7 +529,7 @@
             container.classList.add('loading');
 
             try {
-                const res = await fetch('https://api.stephenclouds.store/signup', {
+                const res = await fetch('https://10.0.2.178:5000/signup', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -561,7 +561,7 @@
             container.classList.add('loading');
 
             try {
-                const res = await fetch('https://api.stephenclouds.store/login', {
+                const res = await fetch('https://10.0.2.178:5000/login', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -641,5 +641,6 @@
     </script>
 
 </body>
+
 
 </html>
